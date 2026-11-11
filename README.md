@@ -35,7 +35,7 @@ Rantai: R1 -> R2 -> R3/R9 dan R4 -> R5/R6/R7. Kesimpulan akhir = fakta turunan y
 
 ![kasus 1](screenshot/Kasus1.png)
 ![kasus 2](screenshot/Kasus2.png)
-![kasus 3](screenshot/kasus3.png)
+![kasus 3](screenshot/Kasus3.png)
 
 ## Batas keberlakuan
 Pengetahuan berasal dari panduan BNPB dan BPBD untuk warga Indonesia, hanya untuk tindakan rumah tangga sebelum, saat, dan sesudah banjir. Tidak memperhitungkan tinggi air, debit sungai, atau kondisi khusus (banjir bandang, lansia, anak). Hasilnya saran awal, bukan keputusan akhir; utamakan instruksi BPBD, BMKG, dan petugas. Program menampilkan catatan ini.
