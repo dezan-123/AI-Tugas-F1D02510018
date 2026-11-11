@@ -33,8 +33,8 @@ Rantai: R1 -> R2 -> R3/R9 dan R4 -> R5/R6/R7. Kesimpulan akhir = fakta turunan y
 | 3 | sedang berkendara saja | tidak ada kesimpulan |
 | 4 | air baru surut | hindari air dan area bekas banjir |
 
-![kasus 1](screenshot/kasus1.png)
-![kasus 2](screenshot/kasus2.png)
+![kasus 1](screenshot/Kasus1.png)
+![kasus 2](screenshot/Kasus2.png)
 ![kasus 3](screenshot/kasus3.png)
 
 ## Batas keberlakuan
