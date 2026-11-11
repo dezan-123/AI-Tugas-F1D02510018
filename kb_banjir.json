@@ -1,0 +1,19 @@
+{
+  "judul": "Kesiapsiagaan banjir untuk rumah tangga",
+  "batas": "Aturan berasal dari panduan kesiapsiagaan banjir BNPB (Tanggap Tangkas Tangguh Menghadapi Bencana, versi PPID KKP) dan artikel BPBD DIY, untuk warga di Indonesia. Hanya mencakup tindakan sebelum, saat, dan sesudah banjir untuk rumah tangga. Hasilnya saran awal, bukan keputusan akhir; selalu utamakan instruksi resmi BPBD, BMKG, dan petugas di lapangan.",
+  "sumber": {
+    "S1": "Siaga Bencana Banjir (kutipan buku Tanggap Tangkas Tangguh Menghadapi Bencana, BNPB), dokumen PPID Kementerian Kelautan dan Perikanan, https://ppid.kkp.go.id/media/uploads/document_information_public/4._Siaga_Bencana_Banjir.pdf, diakses 11 Nov 2026",
+    "S2": "Antisipasi Dampak Risiko Bencana saat Musim Hujan, BPBD Daerah Istimewa Yogyakarta, https://bpbd.jogjaprov.go.id/berita/antisipasi-dampak-risiko-bencana-saat-musim-hujan, diakses 11 Nov 2026"
+  },
+  "aturan": [
+    {"id": "R1", "jika": ["rumah berada di zona rawan banjir", "rumah berada di bantaran sungai"], "mode": "atau", "maka": "risiko banjir rumah tinggi", "sumber": "S1"},
+    {"id": "R2", "jika": ["ada peringatan dini hujan lebat atau banjir dari BMKG/BPBD", "risiko banjir rumah tinggi"], "mode": "dan", "maka": "status siaga banjir", "sumber": "S1, S2"},
+    {"id": "R3", "jika": ["status siaga banjir"], "mode": "dan", "maka": "siapkan evakuasi: pahami rute dan tempat tinggi, siapkan tas siaga dan dokumen penting, ketahui cara mematikan listrik, air, gas", "sumber": "S1, S2"},
+    {"id": "R4", "jika": ["air mulai naik di sekitar rumah", "ada perintah evakuasi dari pihak berwenang"], "mode": "atau", "maka": "evakuasi segera ke tempat yang lebih tinggi", "sumber": "S1, S2"},
+    {"id": "R5", "jika": ["evakuasi segera ke tempat yang lebih tinggi", "ada perintah evakuasi dari pihak berwenang"], "mode": "dan", "maka": "matikan listrik dan cabut peralatan listrik, jangan sentuh alat listrik saat berdiri di air", "sumber": "S1"},
+    {"id": "R6", "jika": ["evakuasi segera ke tempat yang lebih tinggi", "sedang berkendara di wilayah banjir"], "mode": "dan", "maka": "tinggalkan kendaraan dan menuju tempat lebih tinggi", "sumber": "S1"},
+    {"id": "R7", "jika": ["evakuasi segera ke tempat yang lebih tinggi", "harus berjalan melewati air banjir"], "mode": "dan", "maka": "berjalan di pijakan yang tidak bergerak, cek pijakan dengan tongkat, hindari arus", "sumber": "S1"},
+    {"id": "R8", "jika": ["air banjir baru saja surut"], "mode": "dan", "maka": "hindari air dan area bekas banjir (kontaminasi, kesetrum, jalan ambles), kembali hanya sesuai perintah petugas", "sumber": "S1"},
+    {"id": "R9", "jika": ["status siaga banjir", "persediaan makanan dan air untuk 3 hari belum disiapkan"], "mode": "dan", "maka": "lengkapi persediaan makanan dan air minum untuk sedikitnya 3 hari", "sumber": "S1"}
+  ]
+}
